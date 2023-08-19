@@ -1,1 +1,2 @@
 # CryptoClustering
+In this challenge, we are using unsupervised machine learning to predict if cryptocurrencies are affected by price changes. To do this, we employ several methods. First, we preprocess and scale the data using StandardScaler. Then, the elbow method is used to visually identify the optimal number of clusters for our data. Then, we use the KMeans functions to cluster our data before using Principal Component Analysis (PCA) to further refine our analysis. Finally, we visually compare our results with composite plots.
